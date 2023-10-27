@@ -153,6 +153,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>Recipient</label>
+    <nameField>
+        <label>Recipient Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Recipients</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Recipient_Id__c</fullName>
         <externalId>false</externalId>
@@ -164,13 +173,4 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <label>Recipient</label>
-    <nameField>
-        <label>Recipient Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Recipients</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
